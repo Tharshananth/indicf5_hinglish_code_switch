@@ -18,95 +18,43 @@
 
 ## 🎧 Hear the difference
 
-Each clip plays the **original IndicF5** first, then **this model**, same sentence and same voice. 🔊 Turn your sound on.
+Each clip plays the **original IndicF5** first (red), then **this model** (green), same sentence and same voice. 🔊 Turn your sound on.
 
-### Hindi + English (what it was trained for)
-> मैं आज **office** जा रहा हूँ, **morning** में एक **important meeting** है और उसके बाद **team** के साथ **new project discuss** करना है।
-
-
-https://github.com/user-attachments/assets/05d59c32-ff60-493b-8eb3-a04ede1f16e2
-
-
-https://github.com/user-attachments/assets/REPLACE_HINGLISH
-
-The original garbles all six English words. This model says every one of them.
-
-### Pure Hindi (nothing broken)
-> नमस्ते दोस्तों, आज का मौसम बहुत अच्छा है और मैं सोच रहा हूँ कि हम सब मिलकर पार्क में घूमने चलें।
-
-
-https://github.com/user-attachments/assets/4a582dad-fc76-429b-a65a-9da93e71d558
-
-
-https://github.com/user-attachments/assets/REPLACE_HINDI
-
-Sounds the same before and after, so fine-tuning didn't damage normal Hindi.
-
-### Pure English (better, not perfect)
-> The weather is quite pleasant today, so we are planning to visit the park in the evening.
-
-
-https://github.com/user-attachments/assets/790a4760-9942-4251-87c5-be19f6883daa
-
-
-https://github.com/user-attachments/assets/REPLACE_ENGLISH
-
-Never the training goal, but a big step up from unintelligible.
+<table>
+<tr>
+<td width="50%"><b>Hindi + English</b> (what it was trained for)<br>
+<video src="https://github.com/user-attachments/assets/05d59c32-ff60-493b-8eb3-a04ede1f16e2" width="400" controls></video><br>
+<sub>The original garbles all six English words. This model says every one of them.</sub></td>
+<td width="50%"><b>Pure Hindi</b> (nothing broken)<br>
+<video src="https://github.com/user-attachments/assets/4a582dad-fc76-429b-a65a-9da93e71d558" width="400" controls></video><br>
+<sub>Sounds the same before and after, so normal Hindi isn't damaged.</sub></td>
+</tr>
+<tr>
+<td><b>Pure English</b> (better, not perfect)<br>
+<video src="https://github.com/user-attachments/assets/790a4760-9942-4251-87c5-be19f6883daa" width="400" controls></video><br>
+<sub>Never the training goal, but a big step up from unintelligible.</sub></td>
+<td></td>
+</tr>
+</table>
 
 ## 🌏 The surprise: languages it never heard
 
-Trained **only on Hindi-English**, yet English words got better in other Indian languages too. Sentence in each: *"I'm going to **office** today, there's an **important meeting** in the **morning**."*
+Trained **only on Hindi-English**, yet English words got better in other Indian languages too. Each sentence means *"I'm going to **office** today, there's an **important meeting** in the **morning**."*
 
-### Tamil
-
-
-https://github.com/user-attachments/assets/5d0b59de-534b-4228-8d9b-6ab7008f0757
-
-
-https://github.com/user-attachments/assets/REPLACE_TAMIL
-
-### Telugu
-
-
-https://github.com/user-attachments/assets/0e1dde3f-1dda-4d16-8fdc-04c84d4c86ee
-
-
-https://github.com/user-attachments/assets/REPLACE_TELUGU
-
-### Kannada
-
-
-https://github.com/user-attachments/assets/750a9fc0-4821-4311-90f0-63a99de3aec6
-
-
-https://github.com/user-attachments/assets/REPLACE_KANNADA
-
-### Marathi
-
-
-https://github.com/user-attachments/assets/cd7bdfc7-5634-41cf-93f1-35542ad4adf9
-
-
-https://github.com/user-attachments/assets/REPLACE_MARATHI
-
-### Gujarati
-
-
-https://github.com/user-attachments/assets/aa75ea53-5186-46cf-9a07-4a6a67d18c56
-
-
-https://github.com/user-attachments/assets/REPLACE_GUJARATI
-
-### Bengali
-
-
-https://github.com/user-attachments/assets/594326ee-20d0-490a-8b20-28160061b9d7
-
-
-https://github.com/user-attachments/assets/REPLACE_BENGALI
+<table>
+<tr>
+<td><b>Tamil</b><br><video src="https://github.com/user-attachments/assets/5d0b59de-534b-4228-8d9b-6ab7008f0757" width="280" controls></video></td>
+<td><b>Telugu</b><br><video src="https://github.com/user-attachments/assets/0e1dde3f-1dda-4d16-8fdc-04c84d4c86ee" width="280" controls></video></td>
+<td><b>Kannada</b><br><video src="https://github.com/user-attachments/assets/750a9fc0-4821-4311-90f0-63a99de3aec6" width="280" controls></video></td>
+</tr>
+<tr>
+<td><b>Marathi</b><br><video src="https://github.com/user-attachments/assets/cd7bdfc7-5634-41cf-93f1-35542ad4adf9" width="280" controls></video></td>
+<td><b>Gujarati</b><br><video src="https://github.com/user-attachments/assets/aa75ea53-5186-46cf-9a07-4a6a67d18c56" width="280" controls></video></td>
+<td><b>Bengali</b><br><video src="https://github.com/user-attachments/assets/594326ee-20d0-490a-8b20-28160061b9d7" width="280" controls></video></td>
+</tr>
+</table>
 
 ---
-
 
 ## 🤔 The problem, in one sentence
 
@@ -172,30 +120,19 @@ sf.write("out.wav", audio, sr)
 
 Record yourself for about 10 seconds, and the model will speak any Hinglish sentence **in your voice**.
 
-## refrence voice
+<table>
+<tr><th>🎙️ Reference (my real voice)</th><th>🔊 Generated (voice cloned)</th></tr>
+<tr>
+<td><video src="https://github.com/user-attachments/assets/fb4df5ff-43d0-4a15-bda9-fdbfd3a95b73" width="380" controls></video></td>
+<td><video src="https://github.com/user-attachments/assets/7af0125e-dde2-40eb-ad54-ff5ce9709b90" width="380" controls></video></td>
+</tr>
+<tr>
+<td><sub>The model only needs the first ~10 seconds.</sub></td>
+<td>Weekend पर हम सब friends के साथ Goa trip plan कर रहे हैं।</td>
+</tr>
+</table>
 
-https://github.com/user-attachments/assets/fb4df5ff-43d0-4a15-bda9-fdbfd3a95b73
-
-
-**🔊 Generated audio (voice cloned from the reference above):**
-
-
-Weekend पर हम सब friends के साथ Goa trip plan कर रहे हैं।
-
-https://github.com/user-attachments/assets/7af0125e-dde2-40eb-ad54-ff5ce9709b90
-
-
-
-
-
-
-
-
-*Above: my real recording first, then the model saying a new sentence in my voice.*
-
-**More lines in my voice**, each checked by the Hinglish ASR:
-
-<!-- PASTE THE CELL 9 TABLE BELOW THIS LINE -->
+### 🛠️ Try it with your own voice
 
 ### Step 1: Record a reference clip
 
@@ -282,12 +219,8 @@ flowchart LR
 
 ## 📊 Results in numbers
 
-Scored with **[Trelis/whisper-hinglish-preview](https://huggingface.co/Trelis/whisper-hinglish-preview)**, a speech recogniser built for code-switched Hinglish. It writes Hindi in Devanagari and English words in English letters, so a correctly spoken *office* is counted as correct (plain Whisper writes it as ओफिस and marks it wrong).
-
-<!-- PASTE THE CELL 5 TABLE BELOW THIS LINE -->
-
 <details>
-<summary>📄 Earlier evaluation with plain Whisper large-v3 (for the technical reader)</summary>
+<summary>📄 Whisper transcripts and error rates (for the technical reader)</summary>
 
 #### Hindi-English (the training target)
 All six English words in the test sentence come through correctly. The base model produces nonsense in their place. See the table at the top.
@@ -323,7 +256,7 @@ See the full tables on the [model card](https://huggingface.co/Tharshan/indicf5_
 
 This suggests the model learned *"how English sounds when written in an Indian script"* as a general skill, not something tied to Hindi.
 
-> ⚠️ Plain Whisper writes correctly spoken English words in the local script (*morning* → मॉर्णिंग), so its error rates on mixed text undercount this model. That's why the main table above uses a code-switch ASR.
+> ⚠️ Plain Whisper writes correctly spoken English words in the local script (*morning* → मॉर्णिंग), so its error rates on mixed text undercount this model. Listening to the clips above is the best test.
 
 </details>
 
