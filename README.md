@@ -124,11 +124,16 @@ Record yourself for about 10 seconds, and the model will speak any Hinglish sent
 <tr><th>🎙️ Reference (my real voice)</th><th>🔊 Generated (voice cloned)</th></tr>
 <tr>
 <td><video src="https://github.com/user-attachments/assets/fb4df5ff-43d0-4a15-bda9-fdbfd3a95b73" width="380" controls></video></td>
-<td><video src="https://github.com/user-attachments/assets/7af0125e-dde2-40eb-ad54-ff5ce9709b90" width="380" controls></video></td>
+<td><video src="https://github.com/user-attachments/assets/d8e64e35-baac-468a-8744-77a6e2e7c9ac" width="380" controls></video></td>
+
+
+https://github.com/user-attachments/assets/d8e64e35-baac-468a-8744-77a6e2e7c9ac
+
+    
 </tr>
 <tr>
 <td><sub>The model only needs the first ~10 seconds.</sub></td>
-<td>Weekend पर हम सब friends के साथ Goa trip plan कर रहे हैं।</td>
+<td>कल सुबह मेरी client के साथ cal है उसके बाद presentation ready करनी है।</td>
 </tr>
 </table>
 
