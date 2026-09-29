@@ -127,13 +127,12 @@ Record yourself for about 10 seconds, and the model will speak any Hinglish sent
 <td><video src="https://github.com/user-attachments/assets/d8e64e35-baac-468a-8744-77a6e2e7c9ac" width="380" controls></video></td>
 
 
-https://github.com/user-attachments/assets/d8e64e35-baac-468a-8744-77a6e2e7c9ac
 
     
 </tr>
 <tr>
 <td><sub>The model only needs the first ~10 seconds.</sub></td>
-<td>कल सुबह मेरी client के साथ cal है उसके बाद presentation ready करनी है।</td>
+<td>कल सुबह मेरी client के साथ call है उसके बाद presentation ready करनी है।</td>
 </tr>
 </table>
 
